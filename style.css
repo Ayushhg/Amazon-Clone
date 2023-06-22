@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    height:60px;
+    background-color: #131921;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color:white;
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+    align-items: right;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    height:60px;
+    background-size: cover;
+    width:100%;
+    margin-left: 0px;
+}
+
+@media (max-width: 700px){
+    .navbar{
+        height:48px;
+        width:100%;
+    }
+}
+
+.border{
+    border: 1px solid transparent;
+    border-radius: 3%;
+    color:white;
+}
+
+.border:hover{
+    border:1px solid white;
+}
+
+.gps-sign{
+    margin-bottom: 5.5px;
+    margin-right: 2px;
+}
+
+.deliveradd{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.indiaadd{
+    font-size:0.9rem;
+    margin-left:3px;
+    font-weight: 550;
+}
+
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .nav-address{
+        display: none;
+    }
+}
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 57%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.nav-search:hover{
+    border: 2.5px solid #febd68;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    font-size: 0.7rem;
+    color:#828282;
+
+}
+
+@media (max-width: 700px){
+    .search-select{
+        display: none;
+    }
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+@media (max-width: 700px){
+    .search-input{
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        font-size:0.9rem;
+    }   
+
+    .nav-search{
+        height:35px;
+    }
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+
+.country-flag{
+    display: flex;
+    height:60px;
+    width:75px;
+    align-items: center;
+    font-weight: 550;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 700px){
+    .country-flag{
+        display: none;
+    }   
+}
+
+
+.usa_flag{
+    display: flex;
+    background-image: url(USA.jpeg);
+    height:14px;
+    width:27px;
+    background-size:contain;
+}
+
+.nav-small{
+    color:#cccccc;
+    font-size: 0.85rem;
+}
+
+.nav-big{
+    font-weight: 550;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 700px){
+    .nav-small{
+        display: none;
+    }
+    .nav-big{
+        display: none;
+    }
+}
+
+.nav-cart{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-cart i{
+    font-size: 1.65rem;
+}
+
+@media (max-width: 700px){
+    .nav-cart i{
+        font-size: 1rem;
+    }   
+    .nav-cart p{
+        font-size: 0.9rem;
+    }
+}
+
+.nav-signin{
+    width: 132px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .nav-signin{
+        display: none;
+    }    
+}
+
+.drop-icon{
+    font-size: 0.64rem;
+    color:#cccccc;
+}
+
+
+.panel{
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops a{
+    display: inline;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 80%;
+    font-size: 0.9rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.panel-all{
+    display: flex;
+}
+.boeing737{
+    margin-right: 6px;
+}
+
+@media (max-width: 700px){
+    .panel{
+        height: 35px;
+    }
+
+    .boeing737{
+        margin-left: 4px;
+    }
+
+    .mobile-remove{
+        display: none;
+    }
+
+    .panel-ops{
+        .mobile-remove{
+            display:none;
+        }
+    }
+}
+
+.hero-section{
+    background-image: url(Final_hero.png);
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+@media (max-width: 700px){
+    .hero-section{
+        background-image: url(hero_beauty.jpg);
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.hero-mobile{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #37475a;
+    color:white;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.hero-mobile p{
+    margin-top: 19px;
+}
+
+.hero-mobile a{
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#007185;
+}
+
+@media (mix-width: 700px){
+    .hero-mobile{
+        display: none;
+    }
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.9rem;
+    width:95%;
+    margin-bottom:320px;
+}
+
+@media (max-width: 700px){
+    .hero-msg{
+        display: none;
+    }
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:-290px;
+}
+
+.box-2{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.box-content{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.box-content a{
+    color:#007185;
+    font-size: 13px;
+}
+
+.box-content a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+@media (max-width: 700px){
+    .box{
+        width: 95%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }     
+
+    .box-2{
+        display: none;
+    }
+}
+
+.footer{
+    margin-top:15px;
+}
+
+.foot-panel1{
+    height:49px;
+    background-color:#37475a;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.8rem;
+}
+
+
+@media(max-width:600px){
+    .foot-panel1{
+        height: 35px;
+        font-size: 0.6rem;
+    }
+}
+
+.foot-panel2{
+    background-color: #232f3e;
+    color:white;
+    display: flex;;
+    height:500px;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 40px;
+}
+
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:600px){
+    .foot-panel2{
+        height: 240px;
+        font-size: 0.7rem;
+    }
+    ul{
+        margin-top: 20px;
+    }
+    ul a{
+        margin-top: 18px;
+        font-size: 0.6rem;
+    }
+    .foot-panel2 p{
+        display: none;
+    }
+}
+
+.foot-panel3{
+    background-color: #232f3e;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+
+.foot-panel4{
+    color:white;
+    background-color: #131A22;
+    /* display: flex; */
+    height: 76px;
+    /* text-align: center;
+    justify-content: center; */
+}
+
+.foot-panel4 a:hover{
+    text-decoration: underline;
+}
+
+.pages-foot{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top:25px;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size:0.8rem;
+    text-align: center;
+}
+
+.exciting-deals{
+    height: 370px;
+    width: 95.7%;
+    background-color: white;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 20px 0px 15px 20px;
+}
+
+@media (max-width: 700px){
+    .exciting-deals{
+        width: 95%;
+    }
+}
+
+.exciting-deals a{
+    color:#007185;
+}
+
+.deals-details{
+    display:flex;
+    width: 280px;
+    align-items: baseline;
+}
+
+.see-deals{
+    margin-right: 15px;
+}
+
+.every-deal{
+    height: 200px;
+    width: 280px;
+    background-color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    margin-top: 2rem;
+}
+
+.exciting-img{
+    height: 183px;
+    width: 170px;
+    background-size: cover;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.off-tag{
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.red-tag{
+    border: 5px solid #cc0c39;
+    background-color: #cc0c39;
+    color: white;
+    font-weight: 500;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+
+.deal-word{
+    margin-left: 8px;
+    margin-top: 5.5px;
+    color:#cc0c39;
+    font-weight: 550;
+    font-size: 0.8rem;
+}
+
+.price-tag{
+    display: flex;
+    margin-top: 5px;
+}
+
+.original-price{
+    font-size: 17px;
+}
+
+.last-price{
+    margin-top: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: 12px;
+    color: #828282;
+}
+
+.list-price{
+    font-size: 12px;
+    color:#828282;
+    text-decoration: line-through;
+    margin-top: 3px;
+}
+
+.item-name{
+    font-size:13px;
+    margin-top: 3px;
+}
+
+.all-the-deals{
+    display: flex;
+    margin-top: -30px;
+    justify-content: space-around;
+}
