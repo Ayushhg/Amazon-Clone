@@ -275,7 +275,7 @@ a{
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 400px){
     .panel{
         .mobile-small{
             display:none;
