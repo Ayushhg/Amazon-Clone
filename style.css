@@ -275,6 +275,14 @@ a{
     }
 }
 
+@media (max-width: 350px){
+    .panel{
+        .mobile-small{
+            display:none;
+        }
+    }
+}
+
 .hero-section{
     background-image: url(Final_hero.png);
     height: 600px;
