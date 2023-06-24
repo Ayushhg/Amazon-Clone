@@ -324,7 +324,7 @@ a{
     color:#007185;
 }
 
-@media (mix-width: 700px){
+@media (min-width: 700px){
     .hero-mobile{
         display: none;
     }
